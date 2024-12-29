@@ -7,4 +7,6 @@ jobs:
       - name:  Print greeting
         run: echo "Hello World! Greetings"
       - name:  Print goodbye
-        run: echo "Hello World! bye"
+        run: | 
+          echo "Hello World! bye"
+          echo "Hello World! Hi again"
